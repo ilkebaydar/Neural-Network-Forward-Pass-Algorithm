@@ -1,0 +1,4 @@
+C:/Users/bayda/OneDrive/Masaüstü/oop-hw3/cmake-build-debug/CMakeFiles/oop_hw3.dir
+C:/Users/bayda/OneDrive/Masaüstü/oop-hw3/cmake-build-debug/CMakeFiles/new_target.dir
+C:/Users/bayda/OneDrive/Masaüstü/oop-hw3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bayda/OneDrive/Masaüstü/oop-hw3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
