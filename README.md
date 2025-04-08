@@ -2,7 +2,7 @@
 
 A simplified neural network library implemented in **C++** for educational purposes as part of the Object-Oriented Programming course. Details in **BLG_252E___Exercise_3_v2.pdf** file.
 
-This project demonstrates core **OOP principles**, such as **encapsulation**, **composition, aggregation and association (has-a-relationships)**, and **operator overloading**, through the implementation of a forward pass mechanism in neural networks.
+This project demonstrates core **OOP principles**, such as **encapsulation**, **composition-aggregation-association has-a-relationships**, and **operator overloading**, through the implementation of a forward pass mechanism in neural networks.
 
 ---
 
