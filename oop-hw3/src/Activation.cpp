@@ -11,12 +11,12 @@ Activation::Activation(const std::string& type) : type(type) {
 }
 
 // ReLU activation
-float Activation::relu(float x) const {
+float Activation::relu(float x) {
     return std::max(0.0f, x);
 }
 
 // Sigmoid activation
-float Activation::sigmoid(float x) const {
+float Activation::sigmoid(float x) {
     return 1.0f / (1.0f + std::exp(-x));
 }
 
