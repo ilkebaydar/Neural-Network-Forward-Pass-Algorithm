@@ -10,12 +10,11 @@ Network::~Network() {
 }
 
 
-void Network::addLayer(Layer* layer) {
+bool Network::addLayer(Layer* layer) {
     if (layer_count < maxLayers) {
         layers[layer_count++] = layer;
-    } else {
-        throw std::runtime_error("Cannot add more layers, maximum capacity reached");
-    }
+        return true;
+    } else return false;
 }
 
 Matrix Network::forward(const Matrix& input) const {
