@@ -7,16 +7,16 @@ class Activation {
 private:
     std::string type;
 
-    // Activation function implementations
-    float relu(float x) const;
-    float sigmoid(float x) const;
-
 public:
     // Constructor
     Activation(const std::string& type);
 
     // Function call operator to apply the activation function
     float operator()(float x) const;
+
+    // Activation function implementations
+    static float relu(float x);
+    static float sigmoid(float x);
 
     // Getter for type
     std::string getType() const { return type; }
