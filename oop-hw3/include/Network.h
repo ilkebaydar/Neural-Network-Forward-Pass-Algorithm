@@ -12,7 +12,7 @@ public:
     Network(int maxLayers);
     ~Network();
     // Add a layer to the network
-    void addLayer(Layer* layer);
+    bool addLayer(Layer* layer);
     // Forward pass through the network
     Matrix forward(const Matrix& input) const;
     // Get number of layers
